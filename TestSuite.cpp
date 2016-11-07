@@ -4,7 +4,6 @@
 *	@file TestSuite.cpp
 */
 
-//constructor calls each and every method to test everything
 //don't forget destructor
 
 #include "TestSuite.h"
@@ -14,6 +13,11 @@ TestSuite::TestSuite()
 {
 
 
+}
+
+TestSuite::~TestSuite()
+{
+	std::cout<<"TestSuite destructor called\n";
 }
 
 void TestSuite::runTests()
