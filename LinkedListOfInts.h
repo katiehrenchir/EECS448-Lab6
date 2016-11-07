@@ -24,7 +24,7 @@ class LinkedListOfInts : public List<int>
 	/** @pre None.
 	*   @post Deletes all nodes in the list.
 	*/
-	~LinkedListOfInts();	
+	~LinkedListOfInts();
 
 	/** @pre None.
 	*   @post None.

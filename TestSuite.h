@@ -9,6 +9,8 @@
 
 #include "LinkedListOfInts.h"
 
+#include <vector>
+
 class TestSuite
 {
 	public:
@@ -29,6 +31,8 @@ class TestSuite
 	bool testRemoveBack();
 
 	bool testRemoveFront();
+
+    void printList(LinkedListOfInts list);
 
 
 	private:
